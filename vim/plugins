@@ -1,0 +1,31 @@
+call plug#begin('~/.vim/plugged')
+
+" General
+Plug 'scrooloose/syntastic'
+Plug 'scrooloose/nerdcommenter'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-projectionist'
+Plug 'Raimondi/delimitMate'
+
+" AutoComplete Snips
+Plug 'Valloric/YouCompleteMe'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
+" Navigation
+Plug 'kien/ctrlp.vim'
+Plug 'scrooloose/nerdtree'
+
+" HTML/CSS
+Plug 'mattn/emmet-vim'
+
+" JavaScript
+Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
+Plug 'walm/jshint.vim'
+Plug 'jelera/vim-javascript-syntax'
+Plug 'maksimr/vim-jsbeautify'
+Plug 'einars/js-beautify'
+Plug 'pangloss/vim-javascript'
+
+call plug#end()
+
