@@ -1,0 +1,5 @@
+alias ta='tmux attach -t '
+alias tn='tmux new-session -s '
+alias tl='tmux ls'
+alias tk='tmux kill-session'
+alias ll='ls -la'

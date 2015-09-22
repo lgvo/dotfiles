@@ -5,6 +5,7 @@ Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-projectionist'
+Plug 'tpope/vim-dispatch'
 Plug 'Raimondi/delimitMate'
 
 " AutoComplete Snips
@@ -15,6 +16,7 @@ Plug 'honza/vim-snippets'
 " Navigation
 Plug 'kien/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
+Plug 'majutsushi/tagbar'
 
 " HTML/CSS
 Plug 'mattn/emmet-vim'
