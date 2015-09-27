@@ -29,6 +29,8 @@ let mapleader = ","
 :nnoremap <leader>m :make<cr>
 :nnoremap <leader>a :AV<cr>
 
+:nnoremap <leader>t :NERDTreeToggle<cr>
+
 
 " remapping ; to : no shift hell
 :nnoremap ; :
