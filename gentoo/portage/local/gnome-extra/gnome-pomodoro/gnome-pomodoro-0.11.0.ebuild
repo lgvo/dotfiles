@@ -13,7 +13,7 @@ inherit gnome2 vala
 
 SRC_URI="https://github.com/codito/gnome-pomodoro/archive/${PV}.zip -> ${P}.zip"
 
-LICENSE="GPL-2"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 ~x86 ~arm"
 
@@ -21,10 +21,9 @@ KEYWORDS="amd64 ~x86 ~arm"
 RDEPEND=">=gnome-base/gnome-common-3.14
     >=sys-apps/dbus-1.8.16
     >=dev-libs/dbus-glib-0.102
-    >=gnome-base/gnome-shell-3.16.3
+    >=gnome-base/gnome-shell-3.16
     >=dev-libs/gobject-introspection-1.44.0
     >=dev-libs/gobject-introspection-common-1.44.0
-    >=dev-libs/gom-0.3.1
     >=media-fonts/droid-113"
 
 DEPEND="${RDEPEND}
