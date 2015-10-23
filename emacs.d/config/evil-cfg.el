@@ -3,6 +3,7 @@
                   'evil-numbers
                   'evil-leader
 		  'evil-tabs
+		  'relative-line-numbers
 		  'powerline-evil)
 
 (require 'evil)
@@ -10,6 +11,10 @@
 (global-evil-leader-mode t)
 
 (evil-mode t)
+
+(add-hook 'prog-mode-hook 'relative-line-numbers-mode t)
+(add-hook 'prog-mode-hook 'line-number-mode t)
+(add-hook 'prog-mode-hook 'column-number-mode t)
 
 (require 'powerline)
 (powerline-evil-vim-color-theme)

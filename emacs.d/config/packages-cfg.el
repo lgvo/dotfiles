@@ -21,8 +21,7 @@
 
 (package-initialize)
 
-(require-packages 'projectile
-                  'magit
+(require-packages 'magit
                   'color-theme-sanityinc-tomorrow)
 
 (provide 'packages-cfg)
