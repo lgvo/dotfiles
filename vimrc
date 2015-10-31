@@ -3,6 +3,10 @@ source ~/.vim/plugins
 
 filetype plugin on
 
+syntax enable
+set background=dark
+colorscheme solarized
+
 set encoding=utf-8
 set nocompatible
 

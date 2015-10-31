@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
 " General
+Plug 'altercation/vim-colors-solarized'
 Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-surround'
