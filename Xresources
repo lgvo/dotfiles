@@ -1,6 +1,7 @@
 URxvt*termName:  screen-256color
 URxvt.intensityStyles: false
 URxvt*scrollBar: false
+URxvt*urlLauncher: chromium
 
 !! Solarized Color Schema http://github.com/solarized/xresources
 #define S_base03        #002b36
@@ -61,7 +62,7 @@ URxvt*scrollBar: false
 *color15:               S_base3
 
 !-- Xft settings -- !
-Xft.dpi:        110
+Xft.dpi:        96
 Xft.antialias:  true
 Xft.rgba:       rgb
 Xft.hinting:    true
