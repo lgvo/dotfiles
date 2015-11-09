@@ -1,13 +1,14 @@
 (add-to-list 'load-path "~/.emacs.d/config/")
 
 (require 'packages-cfg)
-(require 'programming-cfg)
 (require 'evil-cfg)
+(require 'programming-cfg)
 (require 'javascript-cfg)
 
 (require 'color-theme-sanityinc-tomorrow)
 
 (setq make-backup-files nil)
+(scroll-bar-mode -1)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

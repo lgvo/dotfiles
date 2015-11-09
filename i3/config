@@ -29,7 +29,7 @@ font pango:monospace 8
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-# Dell Keyboard
+# Keyboard FnKeys
 bindcode 121 exec amixer sset Master toggle
 bindcode 122 exec amixer sset Master 2dB-
 bindcode 123 exec amixer sset Master 2dB+
@@ -124,10 +124,10 @@ bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
 # move workspaces between screens
-bindsym $mod+x+h move workspace to output left
-bindsym $mod+x+j move workspace to output down
-bindsym $mod+x+k move workspace to output up 
-bindsym $mod+x+l move workspace to output right
+bindsym $mod+Ctrl+h move workspace to output left
+bindsym $mod+Ctrl+j move workspace to output down
+bindsym $mod+Ctrl+k move workspace to output up
+bindsym $mod+Ctrl+l move workspace to output right
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
