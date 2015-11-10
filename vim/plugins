@@ -10,6 +10,7 @@ Plug 'tpope/vim-dispatch'
 Plug 'Raimondi/delimitMate'
 
 " AutoComplete Snips
+Plug 'ervandew/supertab'
 Plug 'Valloric/YouCompleteMe'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
