@@ -1,35 +1,35 @@
-call plug#begin('~/.vim/plugged')
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " General
-Plug 'altercation/vim-colors-solarized'
-Plug 'scrooloose/syntastic'
-Plug 'scrooloose/nerdcommenter'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-projectionist'
-Plug 'tpope/vim-dispatch'
-Plug 'Raimondi/delimitMate'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-projectionist'
+Plugin 'tpope/vim-dispatch'
+Plugin 'Raimondi/delimitMate'
 
 " AutoComplete Snips
-Plug 'ervandew/supertab'
-Plug 'Valloric/YouCompleteMe'
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
+Plugin 'ervandew/supertab'
+Plugin 'Valloric/YouCompleteMe', {'do': './install.py --clang-completer'}
+Plugin 'SirVer/ultisnips'
 
 " Navigation
-Plug 'kien/ctrlp.vim'
-Plug 'scrooloose/nerdtree'
-Plug 'majutsushi/tagbar'
+Plugin 'kien/ctrlp.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'majutsushi/tagbar'
 
 " HTML/CSS
-Plug 'mattn/emmet-vim'
+Plugin 'mattn/emmet-vim'
 
 " JavaScript
-Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
-Plug 'walm/jshint.vim'
-Plug 'jelera/vim-javascript-syntax'
-Plug 'maksimr/vim-jsbeautify'
-Plug 'einars/js-beautify'
-Plug 'pangloss/vim-javascript'
+Plugin 'marijnh/tern_for_vim', {'do': 'npm install'}
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'maksimr/vim-jsbeautify'
+Plugin 'einars/js-beautify'
+Plugin 'pangloss/vim-javascript'
 
-call plug#end()
+call vundle#end()
+filetype plugin indent on
 
