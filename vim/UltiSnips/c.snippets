@@ -1,0 +1,57 @@
+snippet inc "Include a library" b
+#include <${0:stdio}.h>
+endsnippet
+
+snippet inch "Include a header" b
+#include "${0}"
+endsnippet
+
+snippet if "If statement" 
+if (${1:boolean expression}) {
+	${2}
+}
+endsnippet
+
+snippet elif "else if statement " 
+else if (${1:boolean expression}) {
+	${2}
+}
+endsnippet
+
+snippet main "Main method declaration" b
+int main()
+{
+	${0}
+
+	return 0;
+}
+endsnippet
+
+snippet fori "For with int"
+for (int ${1} = 0; ${1} < ${2:count}; ${1}++) {
+	${2}
+}
+endsnippet
+
+snippet for "for with var"
+for (${1:i} = 0; ${1} < ${2:count}; ${1}++) {
+	${3}
+}
+
+endsnippet
+
+snippet fn "Function declaration"
+${1:void} ${2:function_name}(${3:params})
+{
+	${4}
+}
+endsnippet
+
+snippet ifn 
+int ${1:function_name}(${2:params})
+{
+	${3}
+
+	return 0;
+}
+endsnippet

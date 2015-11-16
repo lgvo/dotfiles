@@ -47,7 +47,6 @@ let g:SuperTabDefaultCompletionType = '<C-n>'
 let g:ycm_use_ultisnips_completer = 0
 
 " UltiSnips Mapping
-let g:UltiSnipsSnippetsDir="~/.vim/snips"
 let g:UltiSnipsExpandTrigger = "<tab>"
 let g:UltiSnipsJumpForwardTrigger = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
