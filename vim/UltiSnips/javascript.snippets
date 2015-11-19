@@ -1,0 +1,43 @@
+snippet inc "Import Library" b
+import $1 from '$2';
+endsnippet
+
+snippet inch "Import File" b
+import $1 from './$2';
+endsnippet
+
+snippet if "IF statement"
+if ($1) {
+	$2
+}
+endsnippet
+
+snippet el "else statement"
+else {
+	$1
+}
+endsnippet
+
+snippet elif "else if"
+else if ($1) {
+	$2
+}
+endsnippet
+
+snippet lb "Arrows Function"
+($1) => {
+	$2
+}
+endsnippet
+
+snippet fn "Function"
+function ${1:name}($2) {
+	$3
+}
+endsnippet
+
+snippet afn "Annonimous Function"
+function($2) {
+	$3
+}
+endsnippet

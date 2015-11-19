@@ -1,4 +1,6 @@
 xrdb ~/.Xresources
-xmodmap ~/.xkeymap
+source ~/.xkeymap
+source ~/.xdualpoint
+source ~/.xscreens
 
 exec /usr/bin/i3

@@ -18,6 +18,12 @@ else if (${1:boolean expression}) {
 }
 endsnippet
 
+snippet strt "Struct Defination" b
+struct ${1:name} {
+	${2}
+}
+endsnippet
+
 snippet main "Main method declaration" b
 int main()
 {
@@ -28,13 +34,13 @@ int main()
 endsnippet
 
 snippet fori "For with int"
-for (int ${1} = 0; ${1} < ${2:count}; ${1}++) {
-	${2}
+for (int ${1:i} = 0; $1 < ${2:count}; $1++) {
+	${3}
 }
 endsnippet
 
 snippet for "for with var"
-for (${1:i} = 0; ${1} < ${2:count}; ${1}++) {
+for (${1:i} = 0; $1 < ${2:count}; $1++) {
 	${3}
 }
 
