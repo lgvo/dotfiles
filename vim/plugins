@@ -12,7 +12,7 @@ Plugin 'Raimondi/delimitMate'
 
 " AutoComplete Snips
 Plugin 'ervandew/supertab'
-Plugin 'Valloric/YouCompleteMe', {'do': './install.py --clang-completer'}
+Plugin 'Valloric/YouCompleteMe', {'do': './install.py --clang-completer --gocode-completer'}
 Plugin 'SirVer/ultisnips'
 
 " Navigation

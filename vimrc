@@ -43,7 +43,6 @@ let mapleader = ","
 " YouCompleteMe with SuperTab
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
-let g:SuperTabDefaultCompletionType = '<C-n>'
 let g:ycm_use_ultisnips_completer = 0
 
 " UltiSnips Mapping
