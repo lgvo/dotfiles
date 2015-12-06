@@ -36,6 +36,8 @@ bindcode 123 exec amixer sset Master 2dB+
 bindcode 232 exec xbacklight -10
 bindcode 233 exec xbacklight +10
 
+bindsym $mod+o exec i3lock -c 000000
+
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
