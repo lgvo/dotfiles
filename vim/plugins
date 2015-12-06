@@ -30,6 +30,9 @@ Plugin 'maksimr/vim-jsbeautify'
 Plugin 'einars/js-beautify'
 Plugin 'pangloss/vim-javascript'
 
+" Go Programming
+Plugin 'fatih/vim-go'
+
 call vundle#end()
 filetype plugin indent on
 
