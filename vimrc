@@ -5,6 +5,9 @@ set relativenumber
 set splitright splitbelow
 set noswapfile nobackup nowritebackup
 
+set mouse=a
+set ttymouse=xterm2
+
 syntax enable
 set background=dark
 
@@ -49,4 +52,14 @@ let g:ycm_use_ultisnips_completer = 0
 let g:UltiSnipsExpandTrigger = "<tab>"
 let g:UltiSnipsJumpForwardTrigger = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
+
+" Tmux Navigation
+let g:tmux_navigator_no_mappings = 1
+
+nnoremap <silent> <C-h> :TmuxNavigateLeft<cr>
+nnoremap <silent> <C-j> :TmuxNavigateDown<cr>
+nnoremap <silent> <C-k> :TmuxNavigateUp<cr>
+nnoremap <silent> <C-l> :TmuxNavigateRight<cr>
+nnoremap <silent> <C-\> :TmuxNavigatePrevious<cr>
+
 

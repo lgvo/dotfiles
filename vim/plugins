@@ -9,6 +9,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-projectionist'
 Plugin 'tpope/vim-dispatch'
 Plugin 'Raimondi/delimitMate'
+Plugin 'christoomey/vim-tmux-navigator'
 
 " AutoComplete Snips
 Plugin 'ervandew/supertab'
