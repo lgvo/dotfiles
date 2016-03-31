@@ -1,7 +1,9 @@
 set encoding=utf-8
 set nocompatible
 set tabstop=4 shiftwidth=4 expandtab autoindent smartindent
-set relativenumber 
+set relativenumber
+set number
+set incsearch
 set splitright splitbelow
 set noswapfile nobackup nowritebackup
 

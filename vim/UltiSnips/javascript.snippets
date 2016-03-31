@@ -1,10 +1,39 @@
+snippet ustr
+'use strict';
+endsnippet
+
 snippet log 
 console.log($0);
 endsnippet
 
-
 snippet dbg
 debugger;
+endsnippet
+
+snippet dsc
+describe('$1', function() {
+	$2
+});
+endsnippet
+
+snippet it
+it('$1', function() {
+	$2
+});
+endsnippet
+
+snippet ito
+it.only('$1', function() {
+	$2
+});
+endsnippet
+
+snippet class 
+class $1 {
+	constructor($2) {
+		$3
+	}
+}
 endsnippet
 
 snippet inc "Import Library" b

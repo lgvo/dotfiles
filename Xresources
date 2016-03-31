@@ -69,6 +69,6 @@ Xft.hinting:    true
 Xft.hintstyle:  hintfull
 
 !! -- Fonts -- !
-URxvt.font:xft:Inconsolata:pixelsize=18
-URxvt.boldfont:xft:Inconsolata:pixelsize=18
+URxvt.font:xft:Inconsolata:pixelsize=22
+URxvt.boldfont:xft:Inconsolata:pixelsize=22
 

@@ -34,6 +34,9 @@ Plugin 'pangloss/vim-javascript'
 " Go Programming
 Plugin 'fatih/vim-go'
 
+" Scala Programming
+Plugin 'derekwyatt/vim-scala'
+
 call vundle#end()
 filetype plugin indent on
 

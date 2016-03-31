@@ -38,6 +38,10 @@ bindcode 233 exec xbacklight +10
 
 bindsym $mod+o exec i3lock -c 000000
 
+bindsym $mod+b exec google-chrome-stable
+
+bindsym $mod+p exec "scrot ~/Downloads/Screenshot%Y-%m-%d%H:%M:%S.png"
+
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
