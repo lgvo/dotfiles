@@ -4,6 +4,10 @@
 # Should you change your keyboard layout some time, delete
 # this file and re-run i3-config-wizard(1).
 #
+#
+
+exec --no-startup=id nitrogen --restore
+exec nm-applet
 
 # i3 config file (v4)
 #
@@ -36,14 +40,14 @@ bindcode 123 exec amixer sset Master 2dB+
 bindcode 232 exec xbacklight -10
 bindcode 233 exec xbacklight +10
 
-bindsym $mod+o exec i3lock -c 000000
+bindsym $mod+o exec i3lock -i ~/Wallpapers/locus2k1411080p.png -c 000000
 
 bindsym $mod+b exec google-chrome-stable
 
 bindsym $mod+p exec "scrot ~/Downloads/Screenshot%Y-%m-%d%H:%M:%S.png"
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec urxvt
 
 # kill focused window
 bindsym $mod+Shift+q kill
