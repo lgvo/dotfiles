@@ -50,18 +50,17 @@ let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
 let g:ycm_use_ultisnips_completer = 0
 
+" YouCompleteMe
+:nnoremap <leader>gd :YcmCompleter GoTo<cr>
+:nnoremap <leader>gt :YcmCompleter GoToType<cr>
+:nnoremap <leader>gc :YcmCompleter GoToDeclaration<cr>
+:nnoremap <leader>gf :YcmCompleter GoToDefinition<cr>
+:nnoremap <leader>gi :YcmCompleter GoToImplemenation<cr>
+:nnoremap <leader>fd :YcmCompleter GetDoc<cr>
+:nnoremap <leader>ft :YcmCompleter GetType<cr>
+:nnoremap <leader>ff :YcmCompleter FixIt<cr>
+
 " UltiSnips Mapping
 let g:UltiSnipsExpandTrigger = "<tab>"
 let g:UltiSnipsJumpForwardTrigger = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
-
-" Tmux Navigation
-let g:tmux_navigator_no_mappings = 1
-
-nnoremap <silent> <C-h> :TmuxNavigateLeft<cr>
-nnoremap <silent> <C-j> :TmuxNavigateDown<cr>
-nnoremap <silent> <C-k> :TmuxNavigateUp<cr>
-nnoremap <silent> <C-l> :TmuxNavigateRight<cr>
-nnoremap <silent> <C-\> :TmuxNavigatePrevious<cr>
-
-

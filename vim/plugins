@@ -1,41 +1,38 @@
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+" Vundle
+Plugin 'VundleVim/Vundle.vim'
+
 " General
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'scrooloose/syntastic'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-projectionist'
-Plugin 'tpope/vim-dispatch'
 Plugin 'Raimondi/delimitMate'
-Plugin 'christoomey/vim-tmux-navigator'
 
-" AutoComplete Snips
-Plugin 'ervandew/supertab'
-Plugin 'Valloric/YouCompleteMe', {'do': './install.py --clang-completer --gocode-completer'}
+" Windows
+Plugin 'wesQ3/vim-windowswap'
+
+" Snips
 Plugin 'SirVer/ultisnips'
+Plugin 'ervandew/supertab'
 
 " Navigation
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'majutsushi/tagbar'
 
-" HTML/CSS
-Plugin 'mattn/emmet-vim'
+" Languages
+Plugin 'natebosch/vim-lsc'
+Plugin 'valloric/YouCompleteMe'
+Plugin 'w0rp/ale'
 
 " JavaScript
-Plugin 'marijnh/tern_for_vim', {'do': 'npm install'}
-Plugin 'jelera/vim-javascript-syntax'
-Plugin 'maksimr/vim-jsbeautify'
-Plugin 'einars/js-beautify'
 Plugin 'pangloss/vim-javascript'
 
-" Go Programming
-Plugin 'fatih/vim-go'
+" TypeScript
+Plugin 'leafgarland/typescript-vim'
 
-" Scala Programming
-Plugin 'derekwyatt/vim-scala'
+" Rust
+Plugin 'rust-lang/rust.vim'
 
 call vundle#end()
 filetype plugin indent on
